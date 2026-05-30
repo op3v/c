@@ -9,8 +9,8 @@
     "help": "node bin/infoooze.js -h",
     "check": "prettier --check .",
     "format": "prettier --write .",
-    "fix": "eslint . --ext .js  --ignore-pattern temp/ --ignore-pattern src/secret.js  --fix",
-    "lint": "eslint --ignore-pattern temp/ --ignore-pattern src/secret.js",
+    "fix": "eslint . --ext .js  --ignore-pattern temp/  --fix",
+    "lint": "eslint --ignore-pattern temp/",
     "postinstall": "node ./src/postinstall.js"
   },
   "license": "MIT",
